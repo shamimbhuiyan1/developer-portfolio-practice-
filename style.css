@@ -1,12 +1,16 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 .parent {
   display: flex;
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
   padding: 20px;
+}
+.color {
+  color: brown;
 }
 .button-design {
   background-image: linear-gradient(rgb(178, 230, 56), rgb(248, 111, 20));
@@ -24,11 +28,12 @@ body {
 }
 .box-model {
   box-shadow: 10px 10px 10px gray;
-  border: 5px solid gray;
+  border-left: 10px cyan solid;
   margin: 20px;
   border-radius: 5px;
   border-image-slice: 1;
   padding: 10px;
+  margin: 20px;
 }
 .copyright {
   border: 10px black;
